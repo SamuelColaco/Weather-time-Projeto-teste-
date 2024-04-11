@@ -96,7 +96,7 @@ body{
 @media only screen and (max-width:600px){
     body > a{
         position:absolute;
-        top: 125px;
+        bottom: 125px;
         left: 192px;
 
     }
@@ -105,7 +105,7 @@ body{
 @media only screen and (max-width:500px){
      body > a{
         position: absolute;
-        top: 40px;
+        bottom: 40px;
         left: 170px;
      }
 }
