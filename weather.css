@@ -80,7 +80,7 @@ body{
     }
 
 }
- a{
+    a{
     display:  inline-block;
     border-radius: 30px;
     padding: 10px;
@@ -92,12 +92,13 @@ body{
     left: 192px;
     width: 192px;
     text-align: center;
-}
+    } 
 @media only screen and (max-width:600px){
     body > a{
         position:absolute;
         bottom: 125px;
         left: 192px;
+
     }
 }
 
