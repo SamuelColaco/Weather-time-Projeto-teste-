@@ -15,16 +15,7 @@ nav > h1{
 nav > h1:hover{
     cursor: pointer;
 }
-@media only screen and (max-width: 768px){
-    nav > h1{
-        font-size: 2em;
-    }
-}
-@media only screen and (max-width: 580px){
-    nav > h1{
-        font-size: 1.5em;
-    }
-}
+
 nav > img{
     width: 6%;
     height: auto;
@@ -32,20 +23,11 @@ nav > img{
     margin: auto;
 }
 
-@media only screen and (max-width:768px){
-    nav > img{
-        width: 12%;
-    }
-}
+
 nav  > div > p{
     font-size: 1em;
 }
-@media only screen and (max-width:600px){
-    nav > div > p{
-        font-size: 0.6em;
-        margin-left: 0.1em;     
-    }
-}
+
 nav > p:hover{
    border-radius: 10px;
 }
@@ -55,6 +37,7 @@ nav > p:hover{
     justify-content:space-evenly;
     flex-grow: 1;
     cursor: pointer;
+    margin-right: -21em;
 }
 .sobre:hover{
     background-color: #57ace1;
@@ -73,6 +56,7 @@ body{
    max-width: 100%;
    font-family: Arial, Helvetica, sans-serif;
    color: whitesmoke;
+   width: 62.5%;
 }
 @media only screen and (max-width:850px){
     body{
@@ -80,7 +64,7 @@ body{
     }
 
 }
-    a{
+ a{
     display:  inline-block;
     border-radius: 30px;
     padding: 10px;
@@ -92,22 +76,6 @@ body{
     left: 192px;
     width: 192px;
     text-align: center;
-    } 
-@media only screen and (max-width:600px){
-    body > a{
-        position:absolute;
-        bottom: 125px;
-        left: 192px;
-
-    }
-}
-
-@media only screen and (max-width:500px){
-     body > a{
-        position: absolute;
-        bottom: 40px;
-        left: 170px;
-     }
 }
  a:hover{
     background-image: linear-gradient(to right,#a1cef1aa, #b6d4e7d0);
@@ -152,4 +120,93 @@ footer{
 }
 .container > p{
     font-size: 1em;
+}
+
+@media only screen and (max-width:1440px){
+    .texteou{
+        margin-top: -56px;
+    }
+}
+@media only screen and (max-width:1024px){
+    nav > img{
+        width: 9%;
+    }
+    .ae{
+        margin-right: -15em;
+    }
+}
+@media only screen and (max-width: 768px){
+    nav > h1{
+        font-size: 1.6em;
+    }
+    nav > img{
+        width: 10%;
+    }
+    .ae{
+        margin-right: -19em;
+    }
+}
+@media only screen and (max-width: 426px){
+    nav > img{
+        width: 10%;
+        display: none;
+    }
+    nav > h1{
+        font-size: 1em;
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+    .ae{
+        margin-right: -8em;
+        margin-top: 0.5em;
+        font-size: 1.25em;
+    }
+    .sobresairtexto{
+        position: absolute;
+        top: 264px;
+        left: 12px;
+    }
+    .texteou{
+        margin-right: 1em;
+    }
+    body > a{
+        position: absolute;
+        bottom: 72px ;
+        left: 105px;
+    }
+    nav > div > p{
+        font-size: 0.5em;
+        margin-left: 0.1em;     
+    }
+}
+@media only screen and (max-width:378px){
+    nav > h1{
+        font-size: 0.75em;
+        margin-top: 1em;
+        margin-left: 0.2em;
+    }
+    .ae{
+        margin-right: -7em;
+        margin-top: 0.8em;
+        font-size: 1.25em;
+    }
+    .texteou{
+        margin-top: -132px;
+    }
+    .sobresairtexto{
+        position: absolute;
+        top: 264px;
+        left: 35px;
+        margin-right: 2em;
+    }
+    body > a{
+        position: absolute;
+        bottom: 45px ;
+        left: 74px;
+    }
+}
+@media only screen and (max-width:320px){
+    .texteou{
+        margin-top: -205px;
+    }
 }
